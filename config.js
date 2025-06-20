@@ -5,9 +5,9 @@ require('dotenv').config();
 const toBool = (value) => value === "true";
 
 // Owner & Bot Details
-global.owner = process.env.OWNER_NUMBER;
+global.owner = process.env.OWNER_NUMBER;2348139598985
 global.anitav4 = process.env.BOT_NAME || "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟒";
-global.ownername = process.env.OWNER_NAME || "David Cyril";
+global.ownername = process.env.OWNER_NAME || "Him";
 global.packname = process.env.PACK_NAME || "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟒";
 global.author = process.env.AUTHOR || "𝐃𝐀𝐕𝐈𝐃 𝐂𝐘𝐑𝐈𝐋";
 global.channelname = process.env.CHANNEL_NAME || "𝐃𝐀𝐕𝐈𝐃 𝐂𝐘𝐑𝐈𝐋";
@@ -46,9 +46,9 @@ global.antilinkwarn = toBool(process.env.ANTILINK_WARN);
 // Messages
 global.mess = {
     success: process.env.MESSAGE_SUCCESS || '𝙳𝚘𝚗𝚎',
-    admin: process.env.MESSAGE_ADMIN || '_*❗This Command Can Only Be Used By Group Admins !*_',
-    botAdmin: process.env.MESSAGE_BOT_ADMIN || '_*❗This Command Can Only Be Used When Bot Becomes Group Admin !*_',
-    OnlyOwner: process.env.MESSAGE_OWNER || '_*❗This Command Can Only Be Used By My Owner !*_',
+    admin: process.env.MESSAGE_ADMIN || '_*❗This Command Can Only Be Used By Group Admins fuck off!*_',
+    botAdmin: process.env.MESSAGE_BOT_ADMIN || '_*❗This Command Can Only Be Used When Bot Becomes Group Admin fool!*_',
+    OnlyOwner: process.env.MESSAGE_OWNER || '_*❗This Command Can Only Be Used By My Owner u unfortunate fellow!*_',
     OnlyGrup: process.env.MESSAGE_GROUP || '_*❗This Command Can Only Be Used In Group Chat !*_',
     private: process.env.MESSAGE_PRIVATE || '_*❗This Command Can Only Be Used In Private Chat !*_',
     wait: process.env.MESSAGE_WAIT || '_*Please Wait*_',
